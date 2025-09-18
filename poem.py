@@ -7,7 +7,6 @@ def make_poem(words):
         f"A {random.choice(words)} whispers, passing by.",
         f"In the night a {random.choice(words)} glows,",
         f"And the {random.choice(words)} quietly grows.",
-        f"While {random.choice(words)} echoes in prose?",
     ]
     return "\n".join(lines)
 
