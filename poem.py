@@ -2,6 +2,7 @@ import random
 
 
 def make_poem(words):
+    """Generate a short 5-line poem sampled from the list of `words`."""
     lines = [
         f"The {random.choice(words)} drifts in the sky,",
         f"A {random.choice(words)} whispers, passing by.",
