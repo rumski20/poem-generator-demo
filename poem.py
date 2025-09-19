@@ -19,4 +19,9 @@ if __name__ == "__main__":
     if not words:
         print("No words provided, using defaults.")
         words = ["tree", "river", "dream", "song"]
-    print(make_poem(words))
+
+    poem = make_poem(words)
+    print(poem)
+
+    with open("poem.txt", "w", encoding="utf-8") as f:
+        f.write(poem)
